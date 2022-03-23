@@ -20,5 +20,6 @@ set shiftwidth=4
 
 let delimitMate_expand_cr=1
 
-inoremap <s-b> <Esc>:Lex<cr>:vertical resize 15<cr>
-nnoremap <s-b> <Esc>:Lex<cr>:vertical resize 15<cr>
+" vim tree
+inoremap <c-f> <Esc>:Lex<cr>:vertical resize 15<cr>
+nnoremap <c-f> <Esc>:Lex<cr>:vertical resize 15<cr>
