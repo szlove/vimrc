@@ -20,5 +20,5 @@ set shiftwidth=4
 
 let delimitMate_expand_cr=1
 
-inoremap <c-b> <Esc>:Lex<cr>:vertical resize 20<cr>
-nnoremap <c-b> <Esc>:Lex<cr>:vertical resize 20<cr>
+inoremap <s-b> <Esc>:Lex<cr>:vertical resize 15<cr>
+nnoremap <s-b> <Esc>:Lex<cr>:vertical resize 15<cr>
