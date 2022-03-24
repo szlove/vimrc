@@ -11,7 +11,7 @@ color onedark
 
 syn on
 set hlsearch
-set nu
+set nu rnu
 set autoindent
 set cindent
 set ts=4
@@ -19,3 +19,5 @@ set sts=4
 set shiftwidth=4
 
 let delimitMate_expand_cr=1
+
+nnoremap <c-c> <Esc>:Lex<cr>:vertical resize 15<cr>
