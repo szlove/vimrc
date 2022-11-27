@@ -20,4 +20,7 @@ set shiftwidth=4
 
 let delimitMate_expand_cr=1
 
+# tree
 nnoremap <c-c> <Esc>:Lex<cr>:vertical resize 15<cr>
+# go test
+nnoremap <c-k> <Esc>:GoTest<cr>
