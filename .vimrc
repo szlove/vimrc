@@ -5,6 +5,9 @@ call plug#begin()
 	Plug 'mattn/emmet-vim'
 	Plug 'ap/vim-css-color'
 	Plug 'kabbamine/vcoolor.vim'
+	Plug 'dart-lang/dart-vim-plugin'
+	Plug 'natebosch/vim-lsc'
+	Plug 'natebosch/vim-lsc-dart'
 call plug#end()
 
 color onedark
@@ -18,9 +21,10 @@ set ts=4
 set sts=4
 set shiftwidth=4
 
-let delimitMate_expand_cr=1
+let delimitMate_expand_cr = 1
 
-# tree
+let g:dart_style_guide = 2
+let g:lsc_auto_map = v:true
+
 nnoremap <c-c> <Esc>:Lex<cr>:vertical resize 15<cr>
-# go test
 nnoremap <c-k> <Esc>:GoImports<cr>:GoTest<cr>
