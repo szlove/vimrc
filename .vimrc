@@ -3,11 +3,6 @@ call plug#begin()
 	Plug 'joshdick/onedark.vim'
 	Plug 'Raimondi/delimitMate'
 	Plug 'mattn/emmet-vim'
-	Plug 'ap/vim-css-color'
-	Plug 'kabbamine/vcoolor.vim'
-	Plug 'dart-lang/dart-vim-plugin'
-	Plug 'natebosch/vim-lsc'
-	Plug 'natebosch/vim-lsc-dart'
 call plug#end()
 
 color onedark
@@ -23,8 +18,8 @@ set shiftwidth=4
 
 let delimitMate_expand_cr = 1
 
-let g:dart_style_guide = 2
-let g:lsc_auto_map = v:true
-
 nnoremap <c-c> <Esc>:Lex<cr>:vertical resize 15<cr>
 nnoremap <c-k> <Esc>:GoImports<cr>:GoTest<cr>
+
+set langmenu=en_US.UTF-8
+language messages en_US.UTF-8
