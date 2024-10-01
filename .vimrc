@@ -20,3 +20,6 @@ let delimitMate_expand_cr = 1
 
 nnoremap <c-c> <Esc>:Lex<cr>:vertical resize 15<cr>
 nnoremap <c-k> <Esc>:GoImports<cr>:GoTest<cr>
+
+set langmenu=en_US.UTF-8
+language messages en_US.UTF-8
