@@ -20,6 +20,7 @@ set shiftwidth=4
 set termwinsize=6x200
 
 let delimitMate_expand_cr = 1
+let g:user_emmet_leader_key='<C-l>'
 
 nnoremap <c-c> <Esc>:bo term<cr>
 nnoremap <c-k> <Esc>:GoImports<cr>:GoTest<cr>
