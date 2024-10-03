@@ -1,25 +1,25 @@
 call plug#begin()
 	Plug 'fatih/vim-go', {'do': ':GoInstallBinaries'}
+	Plug 'morhetz/gruvbox'
 	Plug 'joshdick/onedark.vim'
 	Plug 'Raimondi/delimitMate'
 	Plug 'mattn/emmet-vim'
 call plug#end()
 
-color onedark
+" color onedark
+color gruvbox
 
 syn on
 set hlsearch
-set nu rnu
+" set nu rnu
 set autoindent
 set cindent
 set ts=4
 set sts=4
 set shiftwidth=4
+set termwinsize=6x200
 
 let delimitMate_expand_cr = 1
 
-nnoremap <c-c> <Esc>:Lex<cr>:vertical resize 15<cr>
+nnoremap <c-c> <Esc>:bo term<cr>
 nnoremap <c-k> <Esc>:GoImports<cr>:GoTest<cr>
-
-set langmenu=en_US.UTF-8
-language messages en_US.UTF-8
